@@ -17,16 +17,11 @@ class _DuoUserCardState extends State<DuoUserCard> {
   late Future<User> _user2Future;
 
   @override
-  void initState() {
-    super.initState();
-    _user1Future = getMockUserById(widget.duo.userId1);
-    _user2Future = getMockUserById(widget.duo.userId2);
-  }
-
-  @override
   Widget build(BuildContext context) {
+
     _user1Future = getMockUserById(widget.duo.userId1);
     _user2Future = getMockUserById(widget.duo.userId2);
+
     return Card(
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16.0)),
       margin: const EdgeInsets.all(16.0),
@@ -50,7 +45,7 @@ class _DuoUserCardState extends State<DuoUserCard> {
                         child: Image.network(
                           user1.photoUrl, // Use data from snapshot
                           fit: BoxFit.cover,
-                          height: 400,
+                          height: 250,
                           width: double.infinity,
                         ),
                       ),
@@ -97,7 +92,7 @@ class _DuoUserCardState extends State<DuoUserCard> {
                         child: Image.network(
                           user2.photoUrl, // Use data from snapshot
                           fit: BoxFit.cover,
-                          height: 400,
+                          height: 250,
                           width: double.infinity,
                         ),
                       ),
