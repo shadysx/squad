@@ -1,0 +1,53 @@
+[
+    {
+      "id": 1,
+      "userId1": 1,
+      "userId2": 2
+    },
+    {
+      "id": 2,
+      "userId1": 1,
+      "userId2": 3
+    },
+    {
+      "id": 3,
+      "userId1": 2,
+      "userId2": 4
+    },
+    {
+      "id": 4,
+      "userId1": 2,
+      "userId2": 5
+    },
+    {
+      "id": 5,
+      "userId1": 3,
+      "userId2": 6
+    },
+    {
+      "id": 6,
+      "userId1": 4,
+      "userId2": 7
+    },
+    {
+      "id": 7,
+      "userId1": 5,
+      "userId2": 8
+    },
+    {
+      "id": 8,
+      "userId1": 6,
+      "userId2": 9
+    },
+    {
+      "id": 9,
+      "userId1": 7,
+      "userId2": 10
+    },
+    {
+      "id": 10,
+      "userId1": 8,
+      "userId2": 1
+    }
+  ]
+  
